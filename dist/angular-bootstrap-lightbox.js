@@ -634,7 +634,7 @@ angular.module('bootstrapLightbox').directive('lightboxSrc', ['$window',
             'minWidth': 1,
             'minHeight': 1,
             'maxWidth': 3000,
-            'maxHeight': 3000,
+            'maxHeight': 30000,
           }, imageDimensionLimits),
           Lightbox.fullScreenMode
         );
